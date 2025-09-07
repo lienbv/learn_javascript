@@ -1,18 +1,6 @@
 # learn_javascript
 1. Git
-   1.1. Cấu hình ban đầu
-git config --global user.name "Tên của bạn"
-git config --global user.email "email@example.com"
-git config --list     # xem config
-   1.2. Khởi tạo & clone
-git init              # tạo repo mới trong thư mục hiện tại
-git clone URL         # copy repo từ remote (GitHub, GitLab...)
-  1.3. Kiểm tra trạng thái
-git status            # xem trạng thái file (modified, staged, untracked)
-git log               # xem lịch sử commit
-git log --oneline     # log gọn
 
-  1.4. Các câu lệnh hay dùng
   git add . 
   git add file.txt
   git commit -m "Nội dung commit"
